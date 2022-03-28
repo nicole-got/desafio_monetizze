@@ -1,0 +1,19 @@
+{
+  "name": "desafio_monetizze",
+  "version": "1.0.0",
+  "description": "desafio monetizze",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicole-got/desafio_monetizze.git"
+  },
+  "author": "Nicole Goncalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicole-got/desafio_monetizze/issues"
+  },
+  "homepage": "https://github.com/nicole-got/desafio_monetizze#readme"
+}
