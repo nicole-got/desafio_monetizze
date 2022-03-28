@@ -17,19 +17,12 @@ let string_final = '';
 for(let i = 0; i < arrayCaracters.length; i+=2 ) {
     let key = arrayCaracters[i]+''+(arrayCaracters[i+1])
 
-    if(verificaValorASCII(valoresASCII,key))
-    {
-        string_final += valoresASCII[key]
-    }
-    else
-    {
+    if(!verificaValorASCII(valoresASCII,key)) {
         key = key + arrayCaracters[i+2]
-        if(verificaValorASCII(valoresASCII,key))
-        {
-            string_final += valoresASCII[key]
-            i++
-        }
+        i++
     }
+    
+    string_final += valoresASCII[key]
 }
 
 console.log("Saida: ",string_final);
