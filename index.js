@@ -2,7 +2,7 @@ const  stringCodificada = "79501862390111166";
 console.log("Entrada: ",stringCodificada);
 const stringCodificadaReverse = stringCodificada.split('').reverse().join('');
 const string = stringCodificadaReverse.toString();
-
+//teste
 //verifica existencia de valor ASCII 
 function verificaValorASCII(obj,key){
     return obj.hasOwnProperty(key);
